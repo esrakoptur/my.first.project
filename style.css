@@ -1,0 +1,23 @@
+/* this is a style pack for my_intro */ 
+
+body {
+    /* background-image: url('background2.jpg');*/ 
+    font-family:cursive;
+
+  }
+
+  h1 {
+    color: rgb(158, 178, 59);
+    font-family:cursive;
+    border: 2px solid black;
+    padding: 25px ;
+
+  }
+
+  p {
+    color: rgb(28, 10, 0);
+    font-family:cursive;
+  }
+
+
+   
