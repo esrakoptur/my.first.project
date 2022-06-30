@@ -9,6 +9,30 @@
 
  <link rel="stylesheet" href="styles.css"> 
 
+ <style>
+  table, th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: #cbf4c3;
+    width:30%;
+    text-align:center;
+    padding: 4px;
+    border-spacing: 10px;
+
+
+  }
+
+  /* tr:nth-child(even) {
+  background-color: #D6EEEE;
+  }
+  */
+
+tr:hover {background-color: #D6EEEE;
+
+
+  </style>
+
 </head>
 
 <body style= "font-family: Arial, Helvetica, sans-serif; background-color: rgb(199, 211, 111);">
@@ -24,9 +48,7 @@ at Kadir Has University. <br> I am currently working as an intern at
 <h2 style="background-color: rgb(224, 222, 202)" >Contact Me</h2>
 <pre style="font-size: large; ">
 phone: +905369928123
-<br>
 <a href="mailto:esrakopturx@gmail.com">esrakopturx@gmail.com</a> 
-<br>
 <a href="https://www.linkedin.com/in/esra-koptur-5605a821a" >
     <img src="linkedin.png"  width="70" height="50" >
   </a>
@@ -37,42 +59,92 @@ Antalya
 </address>
 </pre>
 
+<table>
+  <tr>
+    <th>My Socials</th>
+    <th>Link</th>
+
+  </tr>
+
+  <tr>
+    <td>Twitter </td>
+    <td> <a href = " https://www.twitter.com " > click here </a> </td> 
+
+  </tr>
+  
+  <tr>
+    <td>Instagram</td>
+    <td> <a href = " https://www.instagram.com " > click here </a> </td>
+
+
+  </tr>
+</table>
 
 
 <h2 style="background-color: rgb(224, 222, 202)" >Experiences</h2> 
-<pre style="font-size:medium; "> 
-<p><b>&#8594;Assistant Student (2021) </b></p>
-<p><i>Kadir Has University Information Center </i></p>
+<dl>
+  <dt>Assistant Student (2021) </dt>
+  <dd><i>-Kadir Has University Information Center </i></dd>
+  <br>
+  <dt>Cashier (2020)</dt>
+  <dd><i>-Burger King  </i></dd>
+</dl> 
 
-<p><b>&#8594;Cashier (2020) </b> </p>
-<p><i>Burger King  </i></p> 
-</pre>
+
+
 
 <h2 style="background-color:rgb(224, 222, 202) " >Languages</h2>
+<ul style="list-style-type:circle; background-color:beige" > 
 <pre style="font-size: large; ">
-Turkish
-English
+<li>Turkish</li>
+<li>English</li>
 </pre>
+</ul>
 
 <h2 style="background-color: rgb(224, 222, 202)" >Skills</h2>
-<pre style="font-size: large; " > 
+<!-- <pre style="font-size: large; " > 
 Programming(C++)
 MS Office
 Adobe Premiere Pro
 Drivers License
 American Red Cross Lifeguarding
-</pre>
+</pre> -->
 
+<table border = "1" width = 200>
+  <tr>
+    <th><b>Skills</b></th>
+    </tr>
+    <tr>
+    <td>Programming(C++)</td>
+    </tr>
+    <tr>
+    <td>MS Office </td>
+    </tr>
+    <tr>
+    <td>Adobe Premiere Pro</td>
+    </tr>
+    <tr>
+    <td>Drivers License</td>
+    </tr>
+    <tr>
+    <td>American Red Cross Lifeguarding</td>
+    </tr>
+  </tr>
+</table>
+
+<br>
+
+
+<div style="background-color:black;color:white;padding:20px;">
 <h2 style="background-color: rgb(224, 222, 202)" >Interests</h2>
 <pre style="font-size: large; " > 
 Reading
-Video Games
+<span style="color:darkolivegreen;font-weight:bold">Video Games </span> 
 Biking
 Swimming
 Piano
 </pre>
-
-
+</div>
 
 </body>
 </html>
